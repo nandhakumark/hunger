@@ -1,0 +1,49 @@
+﻿<html>
+<header style="background: #0f7430; height : 75pt">
+    <h1>
+        {{appname}}
+    </h1>
+    <h2>
+        {{subtitle}}
+    </h2>
+</header>
+<body style="background: #ffffff; height: 500pt; margin-left: 0pt; margin-right: 0pt;">
+    <div>
+        <h4 style="height:20pt; padding-right: 20px">
+            <button (click)='menuDetails()'>Menu</button>
+            <button>Login</button>
+        </h4>
+    </div>
+    <div *ngIf = !showMenu style="margin-top:-20px">
+        <img src="{{appetizerImage}}" style="width: 753px; height: 325px;"/>
+        <img src="{{imagePath}}" style="width: 753px; height: 325px;"/>
+        <img src="{{dosaImage}}" style="width: 753px; height: 325px;" />
+        <img src="{{dessertImage}}" style="width: 753px; height: 325px;"/>
+    </div>
+    <div *ngIf='showMenu'>
+        <h3>
+            {{menu_soup}}
+        </h3>
+        <h3>
+            {{menu_appetizers}}
+        </h3>
+        <h3>
+            {{menu_naan}}
+        </h3>
+        <h3>
+            {{menu_main_course}}
+        </h3>
+        <h3>
+            {{menu_desserts}}
+        </h3>
+        <h3>
+            {{menu_beverages}}
+        </h3>
+    </div>
+</body>
+<footer style="background: #808080; height : 25pt">
+    <h5>
+        © All Rights Reserved
+    </h5>
+</footer>
+</html>

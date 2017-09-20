@@ -1,0 +1,41 @@
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10px;
+    text-align: -webkit-center;
+    font-size: 300%;
+}
+
+h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -20px;
+    text-align: -webkit-center;
+    font-size: 200%;
+}
+
+h4 {
+    color: black;
+    background-color: darkseagreen;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10px;
+    text-align: right;
+    padding-top: 5px;
+    font-size: 100%;
+}
+
+h3 {
+    color: black;
+    background-color: darkseagreen;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: -webkit-center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: -10px;
+    padding-top: 5px;
+    font-size: 150%;
+}
+
+h5 {
+    text-align: -webkit-center;
+}
