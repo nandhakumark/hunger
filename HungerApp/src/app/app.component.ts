@@ -20,8 +20,15 @@ export class AppComponent  {
     menu_beverages: String = 'Beverages';
 
     showMenu: boolean = false;
+    showLogin: boolean = false;
 
     menuDetails(): void {
+        this.showLogin = false;
         this.showMenu = !this.showMenu;
+    }
+
+    loginDetails(): void {
+        this.showMenu = false;
+        this.showLogin = !this.showLogin;
     }
 }

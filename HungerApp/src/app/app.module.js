@@ -7,6 +7,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 var core_1 = require("@angular/core");
 var platform_browser_1 = require("@angular/platform-browser");
+var forms_1 = require("@angular/forms");
+var http_1 = require("@angular/http");
+var login_component_1 = require("./login/login.component");
 var app_component_1 = require("./app.component");
 var menu_component_1 = require("./menu_categories/menu.component");
 var cart_component_1 = require("./cart_page/cart.component");
@@ -17,9 +20,13 @@ var AppModule = (function () {
 }());
 AppModule = __decorate([
     core_1.NgModule({
-        imports: [platform_browser_1.BrowserModule],
-        declarations: [app_component_1.AppComponent, menu_component_1.MenuComponent, cart_component_1.CartComponent],
-        bootstrap: [app_component_1.AppComponent]
+        imports: [platform_browser_1.BrowserModule, forms_1.FormsModule, http_1.HttpModule],
+        declarations: [app_component_1.AppComponent,
+            menu_component_1.MenuComponent,
+            cart_component_1.CartComponent,
+            login_component_1.LoginComponent],
+        bootstrap: [app_component_1.AppComponent,
+            login_component_1.LoginComponent]
     })
 ], AppModule);
 exports.AppModule = AppModule;
