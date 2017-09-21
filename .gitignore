@@ -259,3 +259,6 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/HungerApp/src/app/app2.module.ts
+/HungerApp/src/app/app2.module.js.map
+/HungerApp/src/app/app2.module.js
