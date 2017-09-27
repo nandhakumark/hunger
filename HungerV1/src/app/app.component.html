@@ -1,0 +1,38 @@
+<html>
+  <header style="background: #0f7430; height : 75pt; margin: 8px 0;">
+      <h1>
+          {{appname}}
+      </h1>
+      <h2>
+          {{subtitle}}
+      </h2>
+  </header>
+  <body style="background: #ffffff; height: 600pt ;margin-left: 0pt; margin-right: 0pt ; ">
+      
+    
+      <div>
+            <ul>
+                    <li style = "float :left"> <a  [routerLink]="['/home']" routerLinkActive="active" [routerLinkActiveOptions]="{exact:
+                        true}">Home</a></li>
+                    <li style = "float :left"> <a [routerLink]="['/menu']" >Menu</a></li>
+                    <li><a [routerLink]="['/signup']" >Signup</a></li>
+                    <li><a [routerLink]="['/login']"  >Login</a></li>
+                    
+                  
+                  </ul>
+                  
+        
+      </div>
+      
+      <router-outlet></router-outlet>
+
+  </body>
+ 
+ 
+ 
+  <footer style="background: #808080; height : 20pt">
+    <h5>
+        © All Rights Reserved
+    </h5>
+</footer>
+</html>
