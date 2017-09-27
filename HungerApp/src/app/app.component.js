@@ -21,9 +21,15 @@ var AppComponent = (function () {
         this.menu_desserts = 'Desserts';
         this.menu_beverages = 'Beverages';
         this.showMenu = false;
+        this.showLogin = false;
     }
     AppComponent.prototype.menuDetails = function () {
+        this.showLogin = false;
         this.showMenu = !this.showMenu;
+    };
+    AppComponent.prototype.loginDetails = function () {
+        this.showMenu = false;
+        this.showLogin = !this.showLogin;
     };
     return AppComponent;
 }());

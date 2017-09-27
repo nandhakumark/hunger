@@ -73,6 +73,14 @@
     <None Include="packages.config" />
     <Content Include="src\tsconfig.json" />
     <Content Include="tslint.json" />
+    <Content Include="src\app\app2.module.js.map" />
+    <Content Include="src\app\authenticate.component.js.map" />
+    <Content Include="src\app\login\login.component.js.map" />
+    <Content Include="src\environments\environment.js.map" />
+    <Content Include="src\environments\environment.prod.js.map" />
+    <Content Include="src\app\app.component.js.map" />
+    <Content Include="src\app\app.component.spec.js.map" />
+    <Content Include="src\app\app.module.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -82,10 +90,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="src\app\app.component.html" />
+    <Content Include="src\app\app.component.js" />
+    <Content Include="src\app\app.component.spec.js" />
+    <Content Include="src\app\app.module.js" />
+    <Content Include="src\app\app2.module.js" />
+    <Content Include="src\app\authenticate.component.js" />
     <Content Include="src\app\cart_page\cart.component.html" />
+    <Content Include="src\app\login\login.component.css" />
+    <Content Include="src\app\login\login.component.html" />
+    <Content Include="src\app\login\login.component.js" />
     <Content Include="src\app\menu_categories\menu.component.html" />
+    <Content Include="src\environments\environment.js" />
+    <Content Include="src\environments\environment.prod.js" />
     <Content Include="src\favicon.ico" />
-    <Content Include="src\images\potbiryani.jpg" />
     <Content Include="src\index.html" />
     <Content Include="src\styles.css" />
     <Content Include="src\systemjs-angular-loader.js" />
@@ -100,8 +117,13 @@
     <TypeScriptCompile Include="src\app\app.component.spec.ts" />
     <TypeScriptCompile Include="src\app\app.component.ts" />
     <TypeScriptCompile Include="src\app\app.module.ts" />
+    <TypeScriptCompile Include="src\app\app2.module.ts" />
+    <TypeScriptCompile Include="src\app\authenticate.component.ts" />
     <TypeScriptCompile Include="src\app\cart_page\cart.component.ts" />
+    <TypeScriptCompile Include="src\app\login\login.component.ts" />
     <TypeScriptCompile Include="src\app\menu_categories\menu.component.ts" />
+    <TypeScriptCompile Include="src\environments\environment.prod.ts" />
+    <TypeScriptCompile Include="src\environments\environment.ts" />
     <TypeScriptCompile Include="src\main.ts" />
   </ItemGroup>
   <ItemGroup>
