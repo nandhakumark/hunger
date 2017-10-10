@@ -1,0 +1,47 @@
+
+h1{
+    
+  
+    text-align: center;
+}
+
+h2 {
+    text-align: center; 
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0f7430;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+a.active {
+
+    color : red;
+}
+
+h5{
+   text-justify:  #000;
+   position: relative;
+   -webkit-margin-before: 3.5em;
+    text-align: center;
+}

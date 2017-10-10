@@ -1,0 +1,17 @@
+
+.vertical-menu 
+{
+    
+        width: 200px;
+        height: auto;
+    
+}
+
+
+.vertical-menu a {
+    background-color: #523A31;
+    color: #92BB20;
+    display: block;
+    padding: 12px;
+    text-decoration: italic;
+}
