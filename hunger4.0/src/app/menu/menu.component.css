@@ -1,0 +1,114 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .leftpane {
+      width: 15%;
+      height: 100%;
+      float: left;
+      background-color: rosybrown;
+      border-collapse: collapse;
+      background-attachment: "http://i.ndtvimg.com/i/2016-06/biryani-625_625x350_41467197200.jpg";
+  }
+  
+  .middlepane {
+      width: 60%;
+      height: 100%;
+      float: left;
+      background-color: rgba(225, 196, 65, 0.88);
+      border-collapse: collapse;
+  }
+  
+  .rightpane {
+    width: 25%;
+    height: 100%;
+    position: relative;
+    float: right;
+    background-color: #00FFFF;
+    border-collapse: collapse;
+  }
+  
+  .toppane {
+    width: 100%;
+    height: 100px;
+    border-collapse: collapse;
+    background-color: #4da6ff;
+  }
+
+
+  .btn-group .button {
+    background-color: #4CAF50; /* Green */
+   
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+}
+
+.btn-group .button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+    background-color: #3e8e41;
+}
+
+.item-name
+{
+  font-family:Roboto;
+  text-align: left;
+  font-weight:bold;
+  position: relative;
+
+  
+}
+
+.item-qty{
+  float:left;
+}
+.item-Desc{
+  text-align: left;
+  font-style:italic;
+}
+.btn-button4{
+  float:right;
+}
+
+.drop-down{
+  display: flex;
+  flex-direction: column;
+}
+item-name
+{
+    font-family: helvetica;
+    font-weight: bold;
+    /*border-bottom: 2px dotted rgb(213, 213, 213);*/
+  }
+  
+ /* .item-Desc {
+    font-style: italic;
+    font-size: .9em;
+    line-height: 3.0em;
+  }
+  
+ /* .item-cost{
+    float:right;
+    padding-right: 5%;
+    line-height: 0.75em;
+    font-weight: bold;
+    font-family: arial;
+    margin-top: -22px;
+  }*/

@@ -1,0 +1,32 @@
+
+  
+        <body style="background: #ffffff; height: 500pt; margin-left: 0pt; margin-right: 0pt ; ">
+          <div class="imgcontainer">
+           <img src="http://i.ndtvimg.com/i/2016-06/biryani-625_625x350_41467197200.jpg" alt="Avatar" class="avatar">
+          </div>
+          
+          <div>     
+            <form myForm = "ngForm" (ngSubmit) = 'getdetails()' > 
+              <div class="form-group" >
+                <label  style="font-weight: bold">User Name</label>
+                <input type = "text" id="username" name = "username" ngInput minlength="5" required  
+                [(ngModel)]="model.username" class="form-control" #username="ngModel">
+  
+                </div>
+  
+                <div class="form-group" >
+                    <label  style="font-weight: bold">Password</label>
+                    <input type = "password" id="password" name = "password" ngInput minlength="5" required  
+                    [(ngModel)]="model.password" class="form-control" #username="ngModel">
+                    </div>
+                    <p *ngIf = "(service.showerror)">{{service.invaliduser}}</p>
+                
+                <button  type = "submit" class="button-button"><span>Login</span></button>
+                <button  type = "reset"  value ="Reset" class="button-button1">Reset</button>
+                <button  type = "cancel"  class="button-button2">Cancel</button>
+              </form>
+           </div>
+        </body>
+  
+  
+       

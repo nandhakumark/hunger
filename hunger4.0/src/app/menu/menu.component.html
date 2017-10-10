@@ -1,0 +1,56 @@
+<div class="container" >
+  
+   <div class="leftpane">
+       <h1>Menu</h1>
+       <div class="btn-group">
+         <button class="button" (click) = "getdetails('SS')">{{menu_soup}}</button>
+         <button class="button" (click) = "getdetails('AP')">{{menu_appetizers}}</button>
+         <button class="button" (click) = "getdetails('NB')">{{menu_naan}}</button>
+         <button class="button" (click) = "getdetails('MC')">{{menu_main_course}}</button>
+         <button class="button" (click) = "getdetails('DS')">{{menu_desserts}}</button>
+         <button class="button" (click) = "getdetails('BV')">{{menu_beverages}}</button>
+       </div>
+     </div>
+   
+     <div class="middlepane" >
+ 
+      <div class="container" >
+ 
+     <mat-expansion-panel *ngFor = "let menu of item_details">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <div class="item-name">
+            {{menu.itemName}}
+          </div>
+        </mat-panel-title>
+       
+        <div class="item-cost">
+          {{menu.price}}
+      </div>
+        <mat-panel-description>             
+         
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <div class="item-Desc">
+          {{menu.itemDesc}}
+      </div>
+        <div class="btn-button4">
+      <button>
+          <i class="material-icons">add_shopping_cart</i>
+    </button> 
+    </div>
+  
+     </mat-expansion-panel>
+       
+    </div>
+ </div>
+
+   <div class="rightpane">
+     <h1>Checkout</h1></div>
+ </div>
+
+
+
+
+
+  
